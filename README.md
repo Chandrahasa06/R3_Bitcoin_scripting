@@ -72,8 +72,8 @@ This initializes a **local test environment** for Bitcoin transactions.
 [regtest]
 regtest=1
 server=1
-rpcuser=admin
-rpcpassword=securepass
+rpcuser=your_username
+rpcpassword=your_password
 rpcallowip=127.0.0.1
 rpcport=18443
 txindex=1
@@ -87,8 +87,8 @@ txconfirmtarget=6
 ```python
 import requests
 
-rpc_user = 'admin'
-rpc_password = 'securepass'
+rpc_user = 'your_username'
+rpc_password = 'your_password'
 rpc_port = 18443
 
 url = f"http://127.0.0.1:{rpc_port}"
